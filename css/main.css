@@ -206,6 +206,10 @@ main {
 
 .footer__container__logo {
     margin-bottom: 25px;
+
+    &:hover {
+        opacity: 0.8;
+    }
 }
 
 /* .footer__container-links__pages {} */
@@ -233,7 +237,7 @@ main {
 .footer__container-socals-link {
     color: #ffffff;
 
-    & i:hover{
+    & i:hover {
         color: #F67E7E;
     }
 }
