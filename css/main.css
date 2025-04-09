@@ -50,10 +50,15 @@ body {
     line-height: 25px;
     font-weight: 600;
     color: #ffffff;
+    background-color: #014E56;
 }
 
 main {
     flex-grow: 1;
+}
+
+h1 {
+    margin: 0;
 }
 
 .container {
@@ -102,6 +107,18 @@ main {
     }
 }
 
+.blue_text {
+    color: #79C8C7;
+}
+
+#active {
+    color: #F67E7E;
+}
+
+.orange_color {
+    color: #F67E7E;
+}
+
 .header {
     background-color: #014E56;
     padding-top: 73px;
@@ -133,10 +150,6 @@ main {
     align-items: center;
 }
 
-#active {
-    color: #F67E7E;
-}
-
 /* .sitenav__item {} */
 
 .sitenav__link {
@@ -147,6 +160,12 @@ main {
     &:hover {
         color: #F67E7E;
     }
+}
+
+.divider {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
 }
 
 /* footer */
