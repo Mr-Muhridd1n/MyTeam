@@ -1,6 +1,5 @@
 @import "./global.css";
 
-
 @font-face {
     font-display: swap;
     font-family: 'Livvic';
@@ -224,7 +223,9 @@ main {
 /* .footer__container-links__pages-link {} */
 
 
-/* .footer__container-help {} */
+.footer__container-help {
+    opacity: 0.6;
+}
 
 .footer_container-socals {
     display: flex;
