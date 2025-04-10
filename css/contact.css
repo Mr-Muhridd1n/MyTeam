@@ -4,6 +4,9 @@
 .contact {
     padding-top: 47px;
     padding-bottom: 120px;
+    background-image: url('../images/bg-pattern-about-2-contact-1.svg'), url('../images/bg-pattern-contact-2.svg');
+    background-repeat: no-repeat;
+    background-position: top 50px left -100px, bottom right -100px;
 }
 
 .contact__container {
@@ -87,6 +90,12 @@
     &:focus {
         outline: none;
         color: #ffffff;
+    }
+
+    &:hover {
+        opacity: 1;
+        color: #FFFFFF;
+        border-color: #79C8C7;
     }
 }
 
